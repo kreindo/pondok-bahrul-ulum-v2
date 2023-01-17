@@ -93,10 +93,18 @@
   .container-sm, .container {
     max-width: 540px;
   }
+  .about{
+    max-width: 540px;
+    margin: auto;
+  }
+  .foto{
+    width: 100%;
+  }
 }
 @media (min-width: 768px) {
   .container-md, .container-sm, .container {
     max-width: 720px;
+    
   }
 }
 @media (min-width: 992px) {

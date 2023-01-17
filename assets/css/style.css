@@ -138,12 +138,12 @@ h6 {
 }
 
 #header.header-scrolled {
-  background: rgba(1, 4, 136, 0.9);
+  background: #16a34a;
   height: 60px;
 }
 
 #header .logo h1 {
-  font-size: 28px;
+  font-size: 18px;
   margin: 0;
   padding: 0;
   line-height: 1;
@@ -429,7 +429,7 @@ h6 {
 
 #hero:before {
   content: "";
-  background: rgba(2, 5, 161, 0.91);
+  background:#16a34a;
   position: absolute;
   bottom: 0;
   top: 0;
@@ -755,7 +755,7 @@ section {
 }
 
 .about .icon-box {
-  margin-top: 40px;
+  margin-top: 15px;
 }
 
 .about .icon-box .icon {
@@ -763,16 +763,17 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 64px;
-  height: 64px;
+  width: 30px;
+  height: 30px;
   border: 2px solid #7ceec6;
   border-radius: 50px;
   transition: 0.5s;
+  margin-top: -5px;
 }
 
 .about .icon-box .icon i {
   color: #1acc8d;
-  font-size: 32px;
+  font-size: 15px;
 }
 
 .about .icon-box:hover .icon {
@@ -785,7 +786,7 @@ section {
 }
 
 .about .icon-box .title {
-  margin-left: 85px;
+  margin-left: 40px;
   font-weight: 700;
   margin-bottom: 10px;
   font-size: 18px;
@@ -801,13 +802,14 @@ section {
 }
 
 .about .icon-box .description {
-  margin-left: 85px;
+  margin-left: 40px;
   line-height: 24px;
   font-size: 14px;
 }
+ 
 
 .about .video-box {
-  background: url("../img/about.png") center center no-repeat;
+  /* background: url("../img/about.png") center center no-repeat; */
   background-size: contain;
   min-height: 300px;
 }
@@ -1022,12 +1024,23 @@ section {
 .details .content ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #1acc8d;
+  color: #1acc38;
 }
 
 .details .content p:last-child {
   margin-bottom: 0;
 }
+
+.tm li{
+  font-size: 13px;
+  text-transform:capitalize;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+}
+
+
 
 /*--------------------------------------------------------------
 # Gallery
