@@ -744,6 +744,11 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.carousel-item img{
+  border-radius: 8px;
+}
+
+
 .about {
   padding: 40px 0 0 0;
 }
@@ -1594,7 +1599,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #010351;
+  background: #16a34a;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
@@ -1606,11 +1611,12 @@ section {
 
 #footer .footer-top .footer-info {
   margin-bottom: 15px;
-  background: #010246;
+  background: #1bd43a;
   color: #fff;
   border-top: 4px solid #1acc8d;
   text-align: center;
   padding: 30px 20px;
+  border-radius: 20px;
 }
 
 #footer .footer-top .footer-info h3 {
@@ -1643,7 +1649,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #1acc8d;
+  background: #00f080;
   color: #fff;
   text-decoration: none;
 }
@@ -1728,7 +1734,7 @@ section {
 }
 
 #footer .copyright {
-  border-top: 1px solid #010479;
+  border-top: 1px solid #1acc8d;
   text-align: center;
   padding-top: 30px;
 }
