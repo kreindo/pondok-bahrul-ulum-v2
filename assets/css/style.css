@@ -1611,7 +1611,7 @@ section {
 
 #footer .footer-top .footer-info {
   margin-bottom: 15px;
-  background: #1bd43a;
+  background: #22c55e;
   color: #fff;
   border-top: 4px solid #1acc8d;
   text-align: center;
@@ -1649,7 +1649,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #00f080;
+  background: #16a34a;
   color: #fff;
   text-decoration: none;
 }
@@ -1734,7 +1734,7 @@ section {
 }
 
 #footer .copyright {
-  border-top: 1px solid #1acc8d;
+  border-top: 1px solid #16a34a;
   text-align: center;
   padding-top: 30px;
 }
